@@ -1,0 +1,48 @@
+/* style.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background: #fdfdfd;
+  color: #333;
+}
+
+header, section, footer {
+  padding: 1.5rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #2a2a2a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "✔️ ";
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.btn {
+  display: inline-block;
+  background: green;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
